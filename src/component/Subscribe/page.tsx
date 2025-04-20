@@ -11,7 +11,11 @@ import Banner4 from '@/../../public/assets/image 23.png';
 function Subscribe() {
   return (
     <>
+<<<<<<< HEAD
      <main className='mt-20 bg-[#F6E8E8] mx-3 flex max-sm:flex-col max-md:flex-col items-center justify-around gap-10 py-8'>
+=======
+     <main className='mt-20 bg-[#F6E8E8] mx-3 flex max-sm:flex-col sm:flex-col items-center justify-around gap-10 py-8'>
+>>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
         <div
          className='flex flex-col items-start justify-start'>
             <h1 className='font-extrabold text-[32px] text-[#282828]'>Never stop listening!</h1>

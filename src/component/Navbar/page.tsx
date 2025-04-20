@@ -85,7 +85,11 @@ const [beOpen, setBeOpen] = useState<boolean>(false);
           </button>
         </div>
 
+<<<<<<< HEAD
     <div className="bg-[#1B1B1B] w-full  flex items-center justify-between max-sm:hidden md:hidden lg:flex md:text-red-500">
+=======
+    <div className="bg-[#1B1B1B] w-full  flex items-center justify-between max-sm:hidden sm:hidden">
+>>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
     <div className='relative w-[40rem] py-5 px-4 bg-cover bg-center text-[15px] flex items-center justify-between'
      style={{ backgroundImage: 'url("/Mask group.png")' }}>
   
