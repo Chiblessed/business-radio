@@ -21,7 +21,7 @@ interface PodcastType {
   picture_url: string;
 }
 
-function Podcast() {
+function PodcastBox() {
   const [isVisible] = useState<number>(20);
   const [currentPage, setCurrentPage] = useState<number>(1);
   const [sortBy, setSortBy] = useState<string>('popular');
@@ -72,7 +72,7 @@ function Podcast() {
 
   return(
     <>
-    <Suspense>
+    
     <main className="mx-10 mt-20 h-full max-sm:mx-4 sm:mx-4">
         <div className="flex flex-col items-start justify-start">
           <h1 className="text-[#5A5A5A] uppercase font-extrabold text-[28px]">
@@ -230,10 +230,18 @@ function Podcast() {
           ))}
         </div>
       </main>
-    </Suspense>
+    
       
     </>
   );
 }
 
-export default Podcast;
+
+export function Podcast() {
+  return (
+
+    <Suspense>
+      <PodcastBox />
+    </Suspense>
+  )
+}
