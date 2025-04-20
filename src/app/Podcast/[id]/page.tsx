@@ -28,7 +28,7 @@ interface EpisodeType {
 }
 
 
-function PodcastDetails() {
+function PodcastDetailPage() {
     const params = useParams();
     const id = params?.id
     const router = useRouter()
@@ -312,13 +312,13 @@ for (let i = startPage; i <= endPage; i++) {
   )
 }
 
-export function PodcastDetailPage() {
+export function PodcastDetails() {
   return (
     
      <Suspense  fallback={<div className="flex justify-center items-center h-screen">
           <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#5A5A5A]"></div>
         </div>}>
-      <PodcastDetails />
+      <PodcastDetailPage />
     </Suspense>
   )
 }
