@@ -237,7 +237,7 @@ function PodcastBox() {
 }
 
 
-export function Podcast() {
+export default function Podcast() {
   return (
 
     <Suspense  fallback={<div className="flex justify-center items-center h-screen">

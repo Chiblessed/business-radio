@@ -312,7 +312,7 @@ for (let i = startPage; i <= endPage; i++) {
   )
 }
 
-export function PodcastDetails() {
+export default function PodcastDetails() {
   return (
     
      <Suspense  fallback={<div className="flex justify-center items-center h-screen">
