@@ -18,11 +18,7 @@ function Trending() {
 </svg>
             Featured Epsiodes
         </p>
-<<<<<<< HEAD
         <div className='flex items-start justify-start gap-6 py-4  overflow-hidden max-sm:flex-col max-md:grid max-md:grid-cols-2'>
-=======
-        <div className='flex items-start justify-start gap-6 py-4  overflow-hidden max-sm:flex-col sm:grid sm:grid-cols-2'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
  <div className='relative cursor-pointer'>
        
             <Image src={Banner1} width={650} height={300} alt='' />
@@ -80,11 +76,7 @@ function Trending() {
            
         </div>
  {/* prev and next btn**/}
-<<<<<<< HEAD
  <div className='max-sm:hidden bg-[#F9F9F9] px-3 flex items-center justify-center max-md:hidden gap-5 py-3 rounded-xl absolute -right-0 bottom-1/2'>
-=======
- <div className='max-sm:hidden bg-[#F9F9F9] px-3 flex items-center justify-center sm:hidden gap-5 py-3 rounded-xl absolute -right-0 bottom-1/2'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
                 {/*prev btn **/}
                 <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 1L1 9L14 17V1Z" fill="#E0E0E0" stroke="#E0E0E0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>

@@ -60,11 +60,7 @@ function Other() {
     };
   return (
     <>
-<<<<<<< HEAD
      <main className='mx-14 pb-10 max-sm:mx-4 mx-md:mx-4'>
-=======
-     <main className='mx-14 pb-10 max-sm:mx-4 sm:mx-4'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
         <div className='flex items-center justify-between'> 
         <p className='text-[#5A5A5A] text-base  font-semibold flex items-center justify-start gap-1 py-2'>
         <svg width="4" height="13" viewBox="0 0 4 13" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -85,11 +81,7 @@ Other Podcasts
      {isLoading ?  <div className="flex justify-center items-center h-1/2">
       <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#5A5A5A]"></div>
     </div> : 
-<<<<<<< HEAD
         <div className='flex items-start justify-start gap-7 max-sm:flex-col max-md:flex-col mt-5  max-md:grid max-md:grid-cols-2'>
-=======
-        <div className='flex items-start justify-start gap-7 max-sm:flex-col sm:flex-col mt-5  sm:grid sm:grid-cols-2'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
 
             {displayData?.map((item, index) => {
                 return(

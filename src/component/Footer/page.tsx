@@ -13,11 +13,7 @@ function Footer() {
     <>
       <footer className='bg-[#282828] w-full text-[#C9C9C9] mt-10  flex flex-col items-start max-sm:items-center justify-start py-5 pl-10'>
 <Image src={Logo} width={100} height={100} alt='company logo'/>
-<<<<<<< HEAD
 <div className="flex items-center justify-center gap-8 py-14 max-sm:flex-col max-md:flex-col max-md:items-center">
-=======
-<div className="flex items-center justify-center gap-8 py-14 max-sm:flex-col sm:flex-col sm:items-center">
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
     <div className='flex items-center justify-center gap-3'>
     <p className='font-bold text-base uppercase'>Home </p>
     <svg width="2" height="35" viewBox="0 0 2 35" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -66,11 +62,7 @@ function Footer() {
     
     
 </div>
-<<<<<<< HEAD
 <div className='flex items-center justify-around gap-32 max-md:gap-10 max-sm:justify-center max-sm:gap-3 text-sm font-medium pb-3'>
-=======
-<div className='flex items-center justify-around gap-32 sm:gap-10 max-sm:justify-center max-sm:gap-3 text-sm font-medium pb-3'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
     <p>.© Copyright 2021. All Rights Reserved.</p>
     <p>Terms & conditions</p>
     <p>Privacy policy</p>

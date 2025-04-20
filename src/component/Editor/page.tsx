@@ -10,11 +10,7 @@ import Banner4 from '@/../../public/assets/Rectangle 44.png';
 function Editor() {
   return (
     <>
-<<<<<<< HEAD
-    <main className='bg-gray-100 flex flex-col px-5 py-8 max-sm:px-3 max-lg:bg-green-500 '>
-=======
-    <main className='bg-gray-100 flex flex-col px-5 py-8 max-sm:px-3 lg:bg-green-500 '>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
+    <main className='bg-gray-100 flex flex-col px-5 py-8 max-sm:px-3  '>
         <h2 className='uppercase text-[#282828] font-bold text-2xl text-left'>
             Editor's picks
         </h2>
@@ -24,11 +20,7 @@ function Editor() {
 </svg>
             Featured Epsiodes
         </p>
-<<<<<<< HEAD
-        <div className='flex items-start justify-start gap-10 max-sm:gap-4 max-sm:flex-col max-md:flex-col lg:flex max-md:bg-red-500 md:flex'>
-=======
-        <div className='flex items-start justify-start gap-10 max-sm:gap-4 max-sm:flex-col sm:flex-col lg:flex md:bg-red-500 md:flex'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
+        <div className='flex items-start justify-start gap-10 max-sm:gap-4 max-sm:flex-col max-md:flex-col lg:flex  md:flex'>
             <div className='relative'>
             <Image src={Banner1} width={680} height={500} alt='' />
 <div className='bg-[#00000080] bg-opacity-50 w-full flex items-start justify-start gap-6 px-4 py-2 absolute bottom-0' >

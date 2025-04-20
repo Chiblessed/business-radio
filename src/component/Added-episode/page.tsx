@@ -7,15 +7,9 @@ import Banner2 from '@/../../public/assets/Rectangle 54.png';
 function Added() {
   return (
     <>
-<<<<<<< HEAD
       <main className='mt-10 px-14 flex flex-col relative  max-sm:px-4 max-md:px-4'>
       <h2 className='uppercase text-[#282828] font-bold text-2xl text-left pt-3'>Newly added episodes</h2>
       <div className='flex items-start justify-start gap-4  py-4 max-sm:mr-0 max-sm:flex-col mr-20 max-md:mr-0 max-md:grid max-md:grid-cols-2 overflow-hidden'>
-=======
-      <main className='mt-10 px-14 flex flex-col relative  max-sm:px-4 sm:px-4'>
-      <h2 className='uppercase text-[#282828] font-bold text-2xl text-left pt-3'>Newly added episodes</h2>
-      <div className='flex items-start justify-start gap-4  py-4 max-sm:mr-0 max-sm:flex-col mr-20 sm:mr-0 sm:grid sm:grid-cols-2 overflow-hidden'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
 
         <div className=''>
                     <Image src={Banner1} width={600} height={200} alt='' />
@@ -294,11 +288,7 @@ function Added() {
        </div>
 
         {/* prev and next btn**/}
-<<<<<<< HEAD
  <div className='max-sm:hidden bg-[#F9F9F9] px-3 flex items-center max-md:hidden justify-center gap-5 py-3 rounded-xl absolute right-24 bottom-1/2'>
-=======
- <div className='max-sm:hidden bg-[#F9F9F9] px-3 flex items-center sm:hidden justify-center gap-5 py-3 rounded-xl absolute right-24 bottom-1/2'>
->>>>>>> 99b5df0e909c38ff651d8a6e7f325e3c290fcb38
                 {/*prev btn **/}
                 <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 1L1 9L14 17V1Z" fill="#E0E0E0" stroke="#E0E0E0" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
