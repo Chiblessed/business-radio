@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { Suspense, useState } from 'react';
 import PodcastCard from '../../component/Podcast-card/page';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useQuery } from '@tanstack/react-query';
@@ -70,9 +70,10 @@ function Podcast() {
     : currentEpisodes.filter(podcast => podcast.category_type.toUpperCase() === category.toUpperCase());
 
 
-  return (
+  return(
     <>
-      <main className="mx-10 mt-20 h-full max-sm:mx-4 sm:mx-4">
+    <Suspense>
+    <main className="mx-10 mt-20 h-full max-sm:mx-4 sm:mx-4">
         <div className="flex flex-col items-start justify-start">
           <h1 className="text-[#5A5A5A] uppercase font-extrabold text-[28px]">
             All Podcasts
@@ -229,6 +230,8 @@ function Podcast() {
           ))}
         </div>
       </main>
+    </Suspense>
+      
     </>
   );
 }
