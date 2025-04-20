@@ -79,7 +79,7 @@ News & Storytelling
      {isLoading ?  <div className="flex justify-center items-center h-1/2">
       <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#5A5A5A]"></div>
     </div> :
-        <div className='flex items-start justify-start max-sm:flex-col gap-8 mt-10  max-md:grid max-md:grid-cols-2 overflow-hidden'>
+        <div className='flex items-start justify-start max-sm:flex-col gap-8 mt-10  max-md:grid max-md:grid-cols-1 overflow-hidden'>
 
         {news?.map((item, index) => (
             <div key={index} 

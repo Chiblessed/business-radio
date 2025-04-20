@@ -120,12 +120,12 @@ function PodcastDetailPage() {
   const cleanDes = shortenedPodcastDesc.replace(/<br\s*\/?>/gi, '');
 
 
-  // Pagination display window size
+  //handle pagination
 const pageWindowSize = 9;
 const startPage = Math.floor((currentPage - 1) / pageWindowSize) * pageWindowSize + 1;
 const endPage = Math.min(startPage + pageWindowSize - 1, totalPages);
 
-// Create an array of visible page numbers
+
 const visiblePages = [];
 for (let i = startPage; i <= endPage; i++) {
   visiblePages.push(i);
@@ -136,7 +136,7 @@ for (let i = startPage; i <= endPage; i++) {
     <>
       <main className='h-full'>
         <div 
-        className='bg-opacity-50 bg-gradient-to-br from-[#2B3221] via-[#2B3221] to-[#F2F2F200] px-10 max-md:px-3 max-sm:px-3 max-sm:flex-col  flex items-center justify-center gap-5 relative py-6'>
+        className='bg-opacity-50 bg-gradient-to-br from-[#2B3221] via-[#2B3221] to-[#F2F2F200] px-10 max-md:px-3 max-sm:px-3 max-sm:flex-col max-md:bg-[#2B3221] flex items-center justify-center gap-5 relative py-6'>
             <Image src={podcast.picture_url} width={400} height={400} alt='' />
             <div className='flex flex-col max-sm:items-center md:items-center lg:items-start'>
                 <p className='text-[#BFBFBF] uppercase text-sm font-extrabold pb-12'>Podcast</p>
@@ -262,9 +262,10 @@ for (let i = startPage; i <= endPage; i++) {
     disabled={currentPage === 1}
     className="px-3 py-2 rounded bg-gray-200 text-gray-800 disabled:opacity-50"
   >
-          <svg width="10" height="15" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <svg width="15" height="18" viewBox="0 0 15 18" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M14 1L1 9L14 17V1Z" fill="#E0E0E0" stroke="#E0E0E0" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
+
   </button>
 
   {/* Page Numbers */}

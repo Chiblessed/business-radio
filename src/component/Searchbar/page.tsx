@@ -27,7 +27,7 @@ function Search() {
                     placeholder="Search"
                     value={text}
                     onChange={(e) => setText(e.target.value)}
-                    className="placeholder:font-bold py-1 outline-none focus:outline-none bg-transparent w-28"
+                    className="placeholder:font-bold placeholder:text-white text-white py-1 outline-none focus:outline-none bg-transparent w-28"
                 />
                
             </form>

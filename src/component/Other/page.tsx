@@ -81,7 +81,7 @@ Other Podcasts
      {isLoading ?  <div className="flex justify-center items-center h-1/2">
       <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#5A5A5A]"></div>
     </div> : 
-        <div className='flex items-start justify-start gap-7 max-sm:flex-col max-md:flex-col mt-5  max-md:grid max-md:grid-cols-2'>
+        <div className='flex items-start justify-start gap-7 max-sm:flex-col max-md:flex-col mt-5  max-md:grid max-md:grid-cols-1'>
 
             {displayData?.map((item, index) => {
                 return(
