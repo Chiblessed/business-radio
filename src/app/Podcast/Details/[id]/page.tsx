@@ -107,7 +107,7 @@ const recording = {
        {cleanTitle}
         </p>
         {/* audio**/}
-        <AudioPlayer recording={episode.content_url} />
+        <AudioPlayer recording={{ url: episode.content_url }} />
  
         {/*audio **/}
         
