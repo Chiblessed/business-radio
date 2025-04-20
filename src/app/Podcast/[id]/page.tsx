@@ -1,5 +1,5 @@
 'use client';
-import React,{useState, useEffect} from 'react';
+import React,{useState, useEffect, Suspense} from 'react';
 import Image from 'next/image';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { useParams  } from 'next/navigation';
@@ -312,4 +312,11 @@ for (let i = startPage; i <= endPage; i++) {
   )
 }
 
-export default PodcastDetails
+export function PodcastDetailPage() {
+  return (
+    
+    <Suspense>
+      <PodcastDetails />
+    </Suspense>
+  )
+}
