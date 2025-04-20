@@ -4,7 +4,9 @@
 import { useEffect, useRef, useState, MouseEvent } from 'react';
 
 interface AudioPlayerProps {
-  recording: string;
+  recording: {
+    url: string;
+  };
 }
 
 export default function AudioPlayer({ recording }: AudioPlayerProps) {
