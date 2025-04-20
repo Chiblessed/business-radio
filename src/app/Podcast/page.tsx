@@ -240,7 +240,9 @@ function PodcastBox() {
 export function Podcast() {
   return (
 
-    <Suspense>
+    <Suspense  fallback={<div className="flex justify-center items-center h-screen">
+      <div className="animate-spin rounded-full h-12 w-12 border-t-4 border-b-4 border-[#5A5A5A]"></div>
+    </div>}>
       <PodcastBox />
     </Suspense>
   )
